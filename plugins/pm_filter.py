@@ -1743,11 +1743,11 @@ async def auto_filter(client, msg, spoll=False):
                 await fek.delete()
                 await message.delete()
     else:
-        fuk = await message.reply(caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+      #  fuk = await message.reply(caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                await fuk.delete()
+              #  await fuk.delete()
                 await message.delete()
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
