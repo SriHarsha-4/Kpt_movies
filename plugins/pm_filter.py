@@ -254,8 +254,9 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#files#{offset}#{req}"),
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
+    tutorial = settings['tutorial']
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡ 𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 ⚡", url=tutorial)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -367,8 +368,9 @@ async def language_check(bot, query):
             InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
         ])
 
+        tutorial = settings['tutorial']
         btn.insert(0, [
-            InlineKeyboardButton("🌿 𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 🌿", url=tutorial)
+        InlineKeyboardButton("🌿 𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 🌿", url=tutorial)
         ])
 
         if offset != "":
@@ -1638,6 +1640,7 @@ async def auto_filter(client, msg, spoll=False):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
+    tutorial = settings['tutorial']
     btn.insert(0, [
         InlineKeyboardButton("🌿 𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 🌿", url=tutorial)
     ])
