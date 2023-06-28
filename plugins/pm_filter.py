@@ -5,7 +5,7 @@ import ast
 import math
 import random
 lock = asyncio.Lock()
-
+import time
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
 import pyrogram
@@ -1527,6 +1527,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     
 async def auto_filter(client, msg, spoll=False):
+    stime = time.time()
     reqstr1 = msg.from_user.id if msg.from_user else 0
     reqstr = await client.get_users(reqstr1)
     if not spoll:
@@ -1697,7 +1698,10 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        group_name = message.chat.title
+        etime=time.time()
+        t_k = round(etime - stime)
+        cap = f"<b>📟 Movie Name: {search}\n🕺 Request: {message.from_user.mention}\n👨‍👩‍👧‍👦Group: {group_name}\n❣ Powered By: <a href='https://t.me/Omnibotz'>Oᴍɴɪ Bᴏᴛᴢ</a>\n🧭 Showing Results: {t_k} sec</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
@@ -1727,7 +1731,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply(caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
@@ -1739,7 +1743,7 @@ async def auto_filter(client, msg, spoll=False):
                 await fek.delete()
                 await message.delete()
     else:
-        fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply(caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
