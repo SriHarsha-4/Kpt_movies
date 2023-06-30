@@ -168,7 +168,7 @@ Nᴀᴍᴇ - {}
 <b>@HDFilmsArea {file_name}
 
 ╭────── • ◆ • ──────╮
-📮ᴊᴏɪɴ : <a href='https://t.me/Omnibotz'></a>
+📮ᴊᴏɪɴ : <a href='https://t.me/Omnibotz'>Join channel</a>
 🔖 ᴍᴏᴠɪᴇs : <a href='https://t.me/omnibot_support'>ɢʀᴏᴜᴘ</a>
 🖤 Dᴀʀᴋ Mᴏᴅᴇ : <a href='https://t.me/addtheme/DQ_The_File_Donor_Theme'>Tᴏᴜᴄʜ</a>
 ╰────── • ◆ • ──────╯
