@@ -275,6 +275,11 @@ async def start(client, message):
                 text="<b>Iɴᴠᴀʟɪᴅ ʟɪɴᴋ ᴏʀ Exᴘɪʀᴇᴅ ʟɪɴᴋ !</b>",
                 protect_content=True if PROTECT_CONTENT else False
             )
+    if pre == "pmfilter":
+        key = file_id
+        search = key.replace("-", " ")
+        offset = await get_search_results(query=search.lower(), offset=0, filter=True, max_results=6)
+        await message.reply_text(text="hello", reply_markup=InlineKeyboardMarkup(btn))
 
     files_ = await get_file_details(file_id)           
     if not files_:
