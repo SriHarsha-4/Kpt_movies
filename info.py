@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ.get('API_ID', '11628395'))
+API_HASH = environ.get('API_HASH', '31a92babd97bd2a9c20907f516011f14')
+BOT_TOKEN = environ.get('BOT_TOKEN', "1989463753:AAF_Knx4paTWZr8E3Yy1o_ZUI0V8UEYF0gA ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -47,12 +47,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Omnibotz/4")
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Omnibotx/4")
 VERIFY2_URL = environ.get('VERIFY2_URL', "omegalinks.in")
 VERIFY2_API = environ.get('VERIFY2_API', "ad37964226979caf2c17220a50b102eebb7b6e49")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'cf7f07020b4b97ea82ff4c23571bc48a81e50ce5')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '45366d486b5826c9fc25660a39d6c07436265637')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -80,7 +80,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-TUTORIAL = environ.get("TUTORIAL", 'https://t.me/Omnibotz/4')
+TUTORIAL = environ.get("TUTORIAL", 'https://t.me/OmnibotX/4')
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
