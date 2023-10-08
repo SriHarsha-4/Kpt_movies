@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '11628395'))
 API_HASH = environ.get('API_HASH', '31a92babd97bd2a9c20907f516011f14')
-BOT_TOKEN = environ.get('BOT_TOKEN', "1989463753:AAF_Knx4paTWZr8E3Yy1o_ZUI0V8UEYF0gA ")
+BOT_TOKEN = environ.get('BOT_TOKEN', " ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,17 +42,17 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Search:Search@cluster0.9e1h6dn.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', " ")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Omnibotx/4")
-VERIFY2_URL = environ.get('VERIFY2_URL', "moneycase.link")
-VERIFY2_API = environ.get('VERIFY2_API', "3193a97f3c26be881f7dd8e00d2f18e272fa0507")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '45366d486b5826c9fc25660a39d6c07436265637')
+VERIFY2_URL = environ.get('VERIFY2_URL', " ")
+VERIFY2_API = environ.get('VERIFY2_API', " ")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', ' ')
+SHORTLINK_API = environ.get('SHORTLINK_API', ' ')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
