@@ -26,9 +26,7 @@ class script(object):
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}</b>"""
-    SOURCE_TXT = """<b>NOTE:
-⚠️This Bot Is An Private Source Project Made By @OmniBotx"""
-
+    SOURCE_TXT = """<b>Nothing</b>"""
 
 
  
