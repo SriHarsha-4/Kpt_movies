@@ -37,10 +37,6 @@ logger.setLevel(logging.ERROR)
 BUTTONS = {}
 SPELL_CHECK = {}
 
-@Client.on_message(filters.me)
-async def msgs(bot, message):
-    if message.text.startswith("Hello!\n\n") and message.outgoing:
-        await message.delete()
 
 
 @Client.on_message(filters.private & filters.text & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.private & filters.text & filters.incoming)
