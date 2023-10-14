@@ -25,13 +25,7 @@ class script(object):
 🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/OmnibotX'>OmniBotx</a></b>"""
 
     ABOUT_TXT = """<b>
-‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Omni_HelpBot'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Omnibotx'>Oᴍɴɪ Bᴏᴛx</a>
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
+‣ ᴍʏ ɴᴀᴍᴇ : {}</b>"""
     SOURCE_TXT = """<b>NOTE:
 ⚠️This Bot Is An Private Source Project Made By @OmniBotx"""
 
