@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', ''))
-BOT_TOKEN = environ.get('BOT_TOKEN', " ")
+API_ID = int(environ.get('API_ID', '20257749'))
+API_HASH = environ.get('API_HASH', '616180befe2fcc1614cb3b5b5545957d'))
+BOT_TOKEN = environ.get('BOT_TOKEN', "6606572163:AAEFFs-MauBGgXcbjKe5kh6Gu7s1159uJoQ")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -39,20 +39,20 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
+NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', " ")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rsasi5153:12345678r@cluster0.lhsre3j.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Omnibotx/4")
-VERIFY2_URL = environ.get('VERIFY2_URL', " ")
-VERIFY2_API = environ.get('VERIFY2_API', " ")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', ' ')
-SHORTLINK_API = environ.get('SHORTLINK_API', ' ')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/how_to_download_KPT")
+VERIFY2_URL = environ.get('VERIFY2_URL', "tnshort.net")
+VERIFY2_API = environ.get('VERIFY2_API', "2c56b6e4bd01a93cf3d438f71d4fa7c33cf9ebca")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '2c56b6e4bd01a93cf3d438f71d4fa7c33cf9ebca')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -61,7 +61,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/New_Movies_Request_Group_KPT_HD')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KPT_Movies')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001940047255))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/New_Movies_Request_Group_KPT_HD')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
@@ -80,7 +80,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
-TUTORIAL = environ.get("TUTORIAL", 'https://t.me/OmnibotX/4')
+TUTORIAL = environ.get("TUTORIAL", 'https://t.me/how_to_download_KPT')
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
