@@ -26,7 +26,9 @@ class script(object):
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}</b>"""
-    SOURCE_TXT = """<b>Nothing</b>"""
+    SOURCE_TXT = """<b>
+Main channel : @KPT_Movies
+Source Code : Private</b>"""
 
 
  
