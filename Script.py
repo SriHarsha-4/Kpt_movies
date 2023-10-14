@@ -264,7 +264,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ
 
-©Oᴍɴɪ Bᴏᴛᴢ"""
+"""
     SINFO = """
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ⇄ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ ⇄
@@ -286,7 +286,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ☆ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ
 
-❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ Oᴍɴɪ Bᴏᴛᴢ"""
+"""
 
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
