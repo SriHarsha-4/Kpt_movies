@@ -25,8 +25,8 @@ class script(object):
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Omni_HelpBot'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Omnibotz'>Oᴍɴɪ Bᴏᴛᴢ​​</a>
+‣ Oᴍɴɪ Bᴏᴛx : <a href='https://t.me/Omni_HelpBot'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Omnibotx'>Oᴍɴɪ Bᴏᴛᴢ​​</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -154,9 +154,9 @@ Nᴀᴍᴇ - {}
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Oᴍɴɪ Bᴏᴛᴢ
-• ᴜꜱᴇʀɴᴀᴍᴇ : <a href='https://t.me/Omni_HelpBot'>OmniBot's Owner</a>
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Omni_HelpBot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Oᴍɴɪ Bᴏᴛx
+• ᴜꜱᴇʀɴᴀᴍᴇ : <a href='https://t.me/KPT_help_bot'>Kpt_movies</a>
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/KPT_help_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
     NORSLTS = """
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
@@ -245,18 +245,18 @@ Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛʜᴇ ғɪʟᴇꜱ 
     REPRT_MSG = """ Reported To Admin"""
 
     EARN_TXT = """
-<b>──────「 <a href='https://t.me/Omnibotz'>ᴇᴀʀɴ ᴍᴏɴᴇʏ</a> 」─────
+<b>──────「 <a href='https://t.me/KPT_help_bot'>ᴇᴀʀɴ ᴍᴏɴᴇʏ</a> 」─────
 
 Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ›› Step 1: Add This bot to your group as an admin..
 
-›› Step 2: If you don't Using any shortner website then make account first on <a href='https://omegalinks.in/ref/Lucifer'>Omegalinks.in </a> (You can also use other link shortner website).
+›› Step 2: If you don't Using any shortner website then make account first on <a href='https://ez4short.com/ref/Lucifer86'>Ez4short </a> (You can also use other link shortner website).
 
 ›› Step 3: Copy your API from website and then, simply set your website and API Using the
 /set_shortner command
 
-› Like this :  /set_shortner <code>Omegalinks.in 95a8195c40d31e0c3b6baa68813fcecb1239f2e9b</code>
+› Like this :  /set_shortner <code>anyshortner.in 95a8195c40d31e0c3b6baa68813fceb1239f2e9b</code>
 
 
 ★ This bot will automatically converts links with Your Api and will provide your links.
@@ -335,7 +335,7 @@ This file 📁 will be deleted ❌ from this group 📍 within 10 ⏰ minutes du
 
 ᴀʟʟ ᴛʜᴇ ꜰɪʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ᴀʀᴇ ꜰʀᴇᴇʟʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ᴏʀ ᴘᴏꜱᴛᴇᴅ ʙʏ ꜱᴏᴍᴇʙᴏᴅʏ ᴇʟꜱᴇ. ᴊᴜꜱᴛ ꜰᴏʀ ᴇᴀꜱʏ ꜱᴇᴀʀᴄʜɪɴɢ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ɪɴᴅᴇxɪɴɢꜰɪʟᴇꜱ ᴡʜɪᴄʜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ. ᴡᴇ ʀᴇꜱᴘᴇᴄᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ ᴀɴᴅ ᴡᴏʀᴋꜱ ɪɴ ᴄᴏᴍᴘʟɪᴀɴᴄᴇ ᴡɪᴛʜ ᴅᴍᴄᴀ ᴀɴᴅ ᴇᴜᴄᴅ. ɪꜰ ᴀɴʏᴛʜɪɴɢ ɪꜱ ᴀɢᴀɪɴꜱᴛ ʟᴀᴡ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ꜱᴏ ᴛʜᴀᴛ ɪᴛ ᴄᴀɴ ʙᴇ ʀᴇᴍᴏᴠᴇᴅ ᴀꜱᴀᴘ. ɪᴛ ɪꜱ ꜰᴏʀʙɪʙʙᴇɴ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ, ꜱᴛʀᴇᴀᴍ, ʀᴇᴘʀᴏᴅᴜᴄᴇ, ᴏʀ ʙʏ ᴀɴʏ ᴍᴇᴀɴꜱ, ꜱʜᴀʀᴇ, ᴏʀ ᴄᴏɴꜱᴜᴍᴇ, ᴄᴏɴᴛᴇɴᴛ ᴡɪᴛʜᴏᴜᴛ ᴇxᴘʟɪᴄɪᴛ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ᴄʀᴇᴀᴛᴏʀ ᴏʀ ʟᴇɢᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ʜᴏʟᴅᴇʀ. ɪꜰ ʏᴏᴜ ʙᴇʟɪᴇᴠᴇ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴠɪᴏʟᴀᴛɪɴɢ ʏᴏᴜʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ, ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ʀᴇꜱᴘᴇᴄᴛɪᴠᴇ ᴄʜᴀɴɴᴇʟꜱ ꜰᴏʀ ʀᴇᴍᴏᴠᴀʟ. ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇꜱ ɴᴏᴛ ᴏᴡɴ ᴀɴʏ ᴏꜰ ᴛʜᴇꜱᴇ ᴄᴏɴᴛᴇɴᴛꜱ, ɪᴛ ᴏɴʟʏ ɪɴᴅᴇx ᴛʜᴇ ꜰɪʟᴇꜱ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ. </code>
 
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/Omnibotz'>ꜰᴏxʏ ᴛɢ</a></b>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/OmnibotX'>ꜰᴏxʏ ᴛɢ</a></b>"""
     
     RENDERING_TXT = """
 ⚡️ʟɪᴠᴇ sʏsᴛᴇᴍ sᴛᴀᴛᴜs ⚡️
@@ -428,9 +428,9 @@ coммand and υѕeѕ
     OWNER_TXT = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Mr Light
-• ᴜꜱᴇʀɴᴀᴍᴇ : @Omni_HelpBot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Omni_HelpBot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Kpt_movies
+• ᴜꜱᴇʀɴᴀᴍᴇ : @KPT_help_bot
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/KPT_help_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 """
     CLOSE_TXT = """
 <b>⚙️ {message.from_user.mention} Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️</b>"""
