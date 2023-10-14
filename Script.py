@@ -21,18 +21,19 @@ class script(object):
 
 ᴛʜɪs ɪs ᴀ ᴘʀᴏ ᴍᴏᴠɪᴇs ᴀᴜᴛᴏꜰɪʟᴛᴇʀ-ʙᴏᴛ ᴡɪᴛʜ 4ɢʙ+ ᴍᴇᴅɪᴀ ꜰɪʟᴇs sᴜᴘᴘᴏʀᴛ.
 
-ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ.</b>"""
+ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴ.
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='t.me/OmnibotX'>OmniBotx</a></b>"""
 
     ABOUT_TXT = """<b>
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ Oᴍɴɪ Bᴏᴛx : <a href='https://t.me/Omni_HelpBot'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Omni_HelpBot'>ᴛʜɪs ᴘᴇʀsᴏɴ​</a>
 ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Omnibotx'>Oᴍɴɪ Bᴏᴛᴢ​​</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
     SOURCE_TXT = """<b>NOTE:
-⚠️This Bot Is An Private Source Project """
+⚠️This Bot Is An Private Source Project Made By @OmniBotx"""
 
 
 
@@ -165,15 +166,7 @@ Nᴀᴍᴇ - {}
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b>@HDFilmsArea {file_name}
-
-╭────── • ◆ • ──────╮
-📮ᴊᴏɪɴ : <a href='https://t.me/Omnibotz'>Join channel</a>
-🔖 ᴍᴏᴠɪᴇs : <a href='https://t.me/omnibot_support'>ɢʀᴏᴜᴘ</a>
-🖤 Dᴀʀᴋ Mᴏᴅᴇ : <a href='https://t.me/addtheme/DQ_The_File_Donor_Theme'>Tᴏᴜᴄʜ</a>
-╰────── • ◆ • ──────╯
-  ♡ ㅤ  ❍ㅤ     ⎙     ⌲
-  ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</b>"""
+<b> {file_name}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 {query}
