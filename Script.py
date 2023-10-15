@@ -263,7 +263,9 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony (2023)
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony 1080
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
+🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)
+"""
+    
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
