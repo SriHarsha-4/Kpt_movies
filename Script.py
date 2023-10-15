@@ -254,15 +254,11 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ⇄ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ ⇄
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
-
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
-
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony 
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony Tamil
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony 2023
-⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony (2023)
 ⋆ ᴇxᴀᴍᴘʟᴇ : Mark antony 1080
-
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)
 """
     
@@ -278,13 +274,10 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ⇄ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ ⇄
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
-
 ɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ꜱᴇʀɪᴇꜱ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ
-
 ⋆ ᴇxᴀᴍᴘʟᴇ : Loki S02
 ⋆ ᴇxᴀᴍᴘʟᴇ : Loki S02 Tamil
 ⋆ ᴇxᴀᴍᴘʟᴇ : Loki S02EP01
-⋆ ᴇxᴀᴍᴘʟᴇ : Loki S02E01
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)"""
 
