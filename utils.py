@@ -64,6 +64,18 @@ async def is_subscribed(bot, query=None, userid=None):
             return True
 
     return False
+    
+def replace_username(text):
+    prohibitedWords = BLACKLIST_WORDS
+    big_regex = re.compile('|'.join(map(re.escape, prohibitedWords)))
+    text = big_regex.sub("", text)
+
+    usernames = re.findall("([@][A-Za-z0-9_]+)", text)
+    for i in usernames:
+        text = text.replace(i, "")
+
+    return text
+
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
