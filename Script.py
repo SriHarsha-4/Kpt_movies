@@ -160,7 +160,7 @@ Nᴀᴍᴇ - {}
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b> {file_caption} \n\nMain channel : @KPT_Movies </b>"""
+<b> {file_name} \n\nMain channel : @KPT_Movies </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>𝐇𝐞𝐲 {message.from_user.mention}, 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 {query}
