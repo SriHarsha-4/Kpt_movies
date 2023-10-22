@@ -1700,7 +1700,7 @@ async def auto_filter(client, msg, spoll=False):
         group_name = message.chat.title
         etime=time.time()
         t_k = round(etime - stime)
-        cap = f"<b>📟 Movie Name: {search}\n🕺 Request: {message.from_user.mention}\n👨‍👩‍👧‍👦Group: {group_name}\n🧭 Showing Results: {t_k} sec</b>"
+        cap = f"<b>📟 Movie Name: {search}\n🕺 Request: {message.from_user.mention}\n🧭 Showing Results in {t_k} sec\nSearch with language and year\n\nExample:\nJawan Tam\nJawan 2023\nJawan (2023)</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
