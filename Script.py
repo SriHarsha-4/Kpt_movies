@@ -136,10 +136,9 @@ Nᴀᴍᴇ - {}
     TOP_ALRT_MSG = """⚠️ Sᴇᴀʀᴄʜɪɴɢ Yᴏᴜʀ Rᴇꜱᴜʟᴛꜱ 🔍"""
 
     MVE_NT_FND = """
-<b>Reasons</b>
-Not released in OTT
-<b>or</b>
-Uploaded today with all sizes 
+<b>Reasons may be              
+dm to know why, @KPT_help_bot 
+  </b>
 ​"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
