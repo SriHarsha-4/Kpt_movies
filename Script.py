@@ -136,9 +136,7 @@ Nᴀᴍᴇ - {}
     TOP_ALRT_MSG = """⚠️ Sᴇᴀʀᴄʜɪɴɢ Yᴏᴜʀ Rᴇꜱᴜʟᴛꜱ 🔍"""
 
     MVE_NT_FND = """
-<b>Reasons may be              
-dm to know why, @KPT_help_bot 
-  </b>
+<b>Your Request Sent to Admin ✅ (24hours)</b>
 ​"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
