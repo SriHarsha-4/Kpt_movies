@@ -154,7 +154,7 @@ Nᴀᴍᴇ - {}
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b> {<b>{file_caption}</b>}\nSize :- {file_size}\nMain Channel: @KPT_Movies </b>"""
+    CAPTION = """<b> {file_caption}\nSize :- {file_size}\nMain Channel: @KPT_Movies </b>"""
 
     
 
