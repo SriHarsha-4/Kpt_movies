@@ -152,7 +152,7 @@ Nᴀᴍᴇ - {}
 
 𝗜𝗗 <b>: {}</b>
 𝗡𝗮𝗺𝗲 <b>: {}</b>
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+𝗠𝗲𝘀𝘀𝗮𝗴𝗲 : <code>{}</code>"""
 
     CAPTION = """<b> {file_caption}\nSize :- {file_size}\nMain Channel: @KPT_Movies </b>"""
 
