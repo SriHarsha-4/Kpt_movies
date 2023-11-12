@@ -225,7 +225,7 @@ Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛʜᴇ ғɪʟᴇꜱ 
 
 
 """
-    REPRT_MSG = """ Reported To Admin"""
+    REPRT_MSG = """ Reported To Admin ✅"""
 
     EARN_TXT = """
 <b>──────「 <a href='https://t.me/KPT_help_bot'>ᴇᴀʀɴ ᴍᴏɴᴇʏ</a> 」─────
