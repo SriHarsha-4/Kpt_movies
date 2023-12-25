@@ -136,7 +136,7 @@ Nᴀᴍᴇ - {}
     TOP_ALRT_MSG = """⚠️ Sᴇᴀʀᴄʜɪɴɢ Yᴏᴜʀ Rᴇꜱᴜʟᴛꜱ 🔍"""
 
     MVE_NT_FND = """
-<b>Your Request Sent to Admin ✅ (24hours)\n<code>Search in Google and paste here</code>\nEven Not Found\nAsk Here: @KPT_Help_bot
+<b>Your Request Sent to Admin ✅ (24hours)\n\n<code>Search in Google and paste here</code>
 
 
 </b>
