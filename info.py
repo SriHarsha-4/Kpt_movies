@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "rsasi")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), True)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/how_to_open_links_KPT/9")
 VERIFY2_URL = environ.get('VERIFY2_URL', "vipurl.in")
 VERIFY2_API = environ.get('VERIFY2_API', "1a7ec35cb3137a15b9631aefe08d18f891631b3e")
