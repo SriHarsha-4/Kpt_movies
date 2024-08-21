@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20257749'))
 API_HASH = environ.get('API_HASH', '616180befe2fcc1614cb3b5b5545957d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6606572163:AAEFFs-MauBGgXcbjKe5kh6Gu7s1159uJoQ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6800803646:AAG_9W37XH9kVPveIvkWoUkRZ-u2zc5C61A")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -63,7 +63,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9Z5hLWq9Br45OWI9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KPT_Movies')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001977576515))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002065158842))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1004015205931')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
