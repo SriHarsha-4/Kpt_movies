@@ -44,8 +44,8 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 NO_RESULT = int(environ.get('NO_RESULT', -1001940047255))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sachin9791341037:12345678r@cluster0.zblgawv.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sachin9791341037")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sachcs117:12345678r@cluster0.ucs28uw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sachcs117")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
