@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '20257749'))
 API_HASH = environ.get('API_HASH', '616180befe2fcc1614cb3b5b5545957d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6800803646:AAG_9W37XH9kVPveIvkWoUkRZ-u2zc5C61A")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7539852797:AAH-tqTAPp8LOj3aGRoeFiEjKh0dEalK-xM")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,10 +29,10 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/954664a46b4684c60c
 
 # Admins, Channels & Users 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5512817683').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002082822407').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002067433051')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -44,8 +44,8 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 NO_RESULT = int(environ.get('NO_RESULT', -1001940047255))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sachcs117:12345678r@cluster0.ucs28uw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sachcs117")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://fortptelegram:12345678r@cluster0.3ilupwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "fortptelegram")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -63,7 +63,7 @@ PORT = environ.get("PORT", "8000")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+9Z5hLWq9Br45OWI9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/KPT_Movies')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002065158842))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001977576515'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1004015205931')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
